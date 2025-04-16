@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body{
+    background-color: #6DE1D2;
+    font-family: Roboto;
+}
+
+h1{
+    color: #ffffff;
+}
+
+#menu{
+    display: inline-flex;
+    list-style: none;
+    padding: 10px;
+    margin: 10px;
+    background-color: #FFD63A;
+    color: #ffffff;
+    border-color: #ffffff;
+    border-radius: 2px;
+    border-style:outset;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #a98802;
+}
