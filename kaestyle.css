@@ -45,24 +45,38 @@ body{
     text-align: center;
     font-size: 20px;
 }
-#next{
-    color: #F75A5A;
-    display: inline-flex;
-    list-style: none;
-    padding: 4px;
-    margin: 10px;
-    background-color: #FFD63A;
-    color: #ffffff;
-    border-color: #ffffff;
-    border-radius: 2px;
-    border-style: outset;
-    cursor: pointer;
-}
 
 #start{
     display: inline-flex;
     list-style: none;
     padding: 10px;
+    margin: 10px;
+    background-color: #FFD63A;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#format{
+    background-color: #F75A5A;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    display:inline;
+    align-content: center;
+    color: #ffffff;
+    padding: 30px;
+    margin: 5px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#next{
+    display:flex;
+    align-content: right;
+    padding: 4px;
     margin: 10px;
     background-color: #FFD63A;
     color: #ffffff;
