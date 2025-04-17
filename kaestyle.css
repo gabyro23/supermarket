@@ -5,11 +5,41 @@ body{
     font-family: Roboto;
 }
 
-h1{
+h1, h2{
+    color: #ffffff;
+}
+
+h3{
     color: #ffffff;
 }
 
 #menu{
+    display: inline-flex;
+    list-style: none;
+    padding: 5px;
+    margin: 10px;
+    background-color: #FFD63A;
+    color: #ffffff;
+    border-color: #ffffff;
+    border-radius: 2px;
+    border-style: outset;
+    cursor: pointer;
+}
+
+#next{
+    display: inline-flex;
+    list-style: none;
+    padding: 4px;
+    margin: 10px;
+    background-color: #FFD63A;
+    color: #ffffff;
+    border-color: #ffffff;
+    border-radius: 2px;
+    border-style: outset;
+    cursor: pointer;
+}
+
+#start{
     display: inline-flex;
     list-style: none;
     padding: 10px;
@@ -18,10 +48,6 @@ h1{
     color: #ffffff;
     border-color: #ffffff;
     border-radius: 2px;
-    border-style:outset;
+    border-style: outset;
     cursor: pointer;
-}
-
-button:hover {
-    background-color: #a98802;
 }
